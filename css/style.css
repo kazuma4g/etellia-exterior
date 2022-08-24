@@ -1,0 +1,12 @@
+.main_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_image{
+    width: 100%;
+    background-image: url('../img/top_img.png');
+    aspect-ratio: 15/7;
+    background-size: cover;
+}
