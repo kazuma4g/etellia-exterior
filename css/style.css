@@ -17,7 +17,7 @@ body,h1,h2,h3,h4,h5,h6,p{
 img,iframe{
     display: block;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
 }
 
 a{
@@ -181,11 +181,13 @@ h2.top-image-title{
 .business-contents-cards{
     width: 1200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: top;
     margin-top: 8vw;
     margin-right: auto;
     margin-left: auto;
+    gap: 4vw;
 }
 
 .content-card1{
@@ -246,6 +248,12 @@ h2.top-image-title{
     margin-bottom: 5vw;
 }
 
+@media (min-width:1351px){
+    .card-desciption{
+        font-size: 1vw;
+    }
+}
+
 @media (max-width:1216px){
     .business-contents-cards{
         width: 100%;
@@ -289,4 +297,46 @@ h2.top-image-title{
     justify-content: top;
     align-items: center; 
     background-color: #DCFACD;
+}
+
+.examples-contents{
+    display: flex;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.examples-img{
+    width: 40%;
+    object-fit: cover;
+}
+
+.examples-description{
+    width: 40%;
+    background-color: black;
+}
+
+@media (max-width:769px){
+    .examples-contents{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+    }
+
+    .examples-img{
+        width: 80%;
+        object-fit: cover;
+    }
+
+    .examples-description{
+        width: 80%;
+        background-color: black;
+    }
 }
