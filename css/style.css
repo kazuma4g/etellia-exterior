@@ -116,6 +116,14 @@ h3::after{
     background:#63B13C;
 }
 
+h4{
+    font-size:2vw;
+}
+
+p {
+    font-size: 1.2vw;
+}
+
 /*top-image
 -----------------------------------------------------------------------------------------*/
 .top-image {
@@ -170,4 +178,95 @@ h2.top-image-title{
     align-items: center; 
 }
 
+.business-contents-cards{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-top: 8vw;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.content-card1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: #63B13C;
+    box-shadow: 0 0 10px;
+    padding: 1.5vw 1.5vw 2vw 1.5vw;
+}
+
+.content-card2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: #63B13C;
+    box-shadow: 0 0 10px;
+    padding: 1.5vw 1.5vw 2vw 1.5vw;
+}
+
+.content-card3{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: #63B13C;
+    box-shadow: 0 0 10px;
+    padding: 1.5vw 1.5vw 2vw 1.5vw;
+}
+
+.content-card4{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: #63B13C;
+    box-shadow: 0 0 10px;
+    padding: 1.5vw 1.5vw 2vw 1.5vw;
+}
+
+.card-desciption{
+    margin-top: 1vw; 
+}
+
+@media (max-width:1216px){
+    .business-contents-cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+        align-items: center;
+    }
+
+    .content-card1{
+        width: 80%;
+    }
+    
+    .content-card2{
+        width: 80%;
+    }
+    
+    .content-card3{
+        width: 80%;
+    }
+    
+    .content-card4{
+        width: 80%;
+    }
+
+    .card-title{
+        font-size: 3vw;
+    }
+
+    .card-desciption{
+        font-size: 2vw;
+    }
+
+}
