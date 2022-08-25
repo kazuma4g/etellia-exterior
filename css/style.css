@@ -241,7 +241,7 @@ h2.top-image-title{
 }
 
 .business-contents-btn{
-    margin-top: 4vw;
+    margin-top: 6vw;
     font-size: 2vw;
     margin-bottom: 5vw;
 }
@@ -279,4 +279,14 @@ h2.top-image-title{
         font-size: 2vw;
     }
 
+}
+
+/*examples-parent
+-----------------------------------------------------------------------------------------*/
+.examples-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center; 
+    background-color: #DCFACD;
 }
