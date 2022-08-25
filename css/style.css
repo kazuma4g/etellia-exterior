@@ -55,13 +55,11 @@ ul,ol{
 
 button{
     margin: 0;
-    padding: 0;
+    padding: 1vw 2vw 1vw 2vw;
     background-color: #63B13C;
     border: medium none;
     color: white;
-    padding: 0.5em 0.9em 0.5em 0.6em;
     font-family: 'Noto Serif JP';
-    font-size: 1.6vw;
     border-radius: 50px;
     text-align: center;
   }
@@ -151,9 +149,11 @@ a.top-image-logo{
     margin-left: 2vw;
 }
 
-button.top-image-btn{
+.top-image-btn{
     width: 20%;
     margin-right: 2vw;
+    font-size: 2vw;
+    padding: 10vw, 1vw, 1.5vw, 1vw;
 }
 
 .bottom-wrapper{
@@ -234,6 +234,16 @@ h2.top-image-title{
 
 .card-desciption{
     margin-top: 1vw; 
+}
+
+.card-title span{
+    color: #63B13C;
+}
+
+.business-contents-btn{
+    margin-top: 4vw;
+    font-size: 2vw;
+    margin-bottom: 5vw;
 }
 
 @media (max-width:1216px){
