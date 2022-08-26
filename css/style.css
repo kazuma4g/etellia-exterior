@@ -425,3 +425,12 @@ h2.top-image-title{
         font-size: 1.8vw;
     }
 }
+
+/*news
+-----------------------------------------------------------------------------------------*/
+.news-parent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
