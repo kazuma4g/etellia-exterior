@@ -357,13 +357,38 @@ h2.top-image-title{
     justify-content: top;
 }
 
-.tag{
+.tag.exterior{
     background-color: #63B13C;
     padding: 1vw 1.5vw 1vw 1.5vw;
     border-radius: 50px;
     color: white;
     font-size: 1.5vw;
 }
+
+.tag.construction{
+    background-color: #275B0D;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.tag.civil{
+    background-color: #5AD61C;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.tag.renovation{
+    background-color: #6A9853;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.5vw;
+}
+
 
 .description-title{
     margin-top: 2vw;
