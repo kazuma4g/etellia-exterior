@@ -20,6 +20,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
     <!-- Css -->
     <link rel="stylesheet" href="/css/style.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="top-image">
@@ -76,22 +78,80 @@
     </section>
 
     <section class="examples-parent">
-        <img class="logo-mark-img" src="/img/logo_mark.png" alt="logo-mark">
-        <h3>施行事例</h3>
-        <div class="examples-contents">
-            <img class="examples-img" src="/img/example_exterior_construction.png" alt="logo">
-            <div class="examples-description">
-                <div class="tag">外構工事</div>
-                <h5 class="description-title">プールの設置</h5>
-                <p class="description-text">
-                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br>
-                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br><br>
+        <div class="slider-container">
+            <div class="slide active">
+                <img class="logo-mark-img" src="/img/logo_mark.png" alt="logo-mark">
+                <h3>施行事例</h3>
+                <div class="examples-contents">
+                    <img class="examples-img" src="/img/example_exterior_construction.png" alt="logo">
+                    <div class="examples-description">
+                        <div class="tag">外構工事</div>
+                        <h5 class="description-title">プールの設置</h5>
+                        <p class="description-text">
+                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br>
+                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br><br>
 
-                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                </p>
+                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="logo-mark-img" src="/img/logo_mark.png" alt="logo-mark">
+                <h3>造成工事</h3>
+                <div class="examples-contents">
+                    <img class="examples-img" src="/img/example_construction.png" alt="logo">
+                    <div class="examples-description">
+                        <div class="tag">外構工事</div>
+                        <h5 class="description-title">プールの設置</h5>
+                            <p class="description-text">
+                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br>
+                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br><br>
+
+                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                            </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="slide">
+                <img class="logo-mark-img" src="/img/logo_mark.png" alt="logo-mark">
+                <h3>土木工事</h3>
+                <div class="examples-contents">
+                    <img class="examples-img" src="/img/example_civil_engineeing.png" alt="logo">
+                    <div class="examples-description">
+                        <div class="tag">外構工事</div>
+                        <h5 class="description-title">プールの設置</h5>
+                        <p class="description-text">
+                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br>
+                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br><br>
+
+                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="logo-mark-img" src="/img/logo_mark.png" alt="logo-mark">
+                <h3>リフォーム</h3>
+                <div class="examples-contents">
+                    <img class="examples-img" src="/img/example_renovation.png" alt="logo">
+                    <div class="examples-description">
+                        <div class="tag">外構工事</div>
+                        <h5 class="description-title">プールの設置</h5>
+                        <p class="description-text">
+                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br>
+                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br><br>
+
+                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
+        <button type=button class="button-prev">&#8249;</button>
+        <button type=button class="button-next">&#8250;</button>
     </section>
-
+<!-- Javascript -->
+<script type="text/javascript" src="/js/slider.js"></script>
 </body>
 </html>
