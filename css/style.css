@@ -118,8 +118,12 @@ h4{
     font-size:2vw;
 }
 
+h5{
+    font-size: 3vw;
+}
+
 p {
-    font-size: 1.2vw;
+    font-size: 1.3vw;
 }
 
 /*top-image
@@ -316,7 +320,29 @@ h2.top-image-title{
 
 .examples-description{
     width: 40%;
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: top;
+}
+
+.tag{
+    background-color: #63B13C;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.description-title{
+    margin-top: 2vw;
+    border-bottom: dashed 1px black;
+    padding-bottom: 1.2vw;
+    width: 100%;
+}
+
+.description-text{
+    margin-top: 1.6vw;
 }
 
 @media (max-width:769px){
@@ -337,6 +363,9 @@ h2.top-image-title{
 
     .examples-description{
         width: 80%;
-        background-color: black;
+    }
+
+    p {
+        font-size: 1.8vw;
     }
 }
