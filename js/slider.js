@@ -27,3 +27,18 @@ $('.button-prev').click(function(){
     $('.slide.active').css('display','flex');
 
 });
+
+$(document).ready(function(){
+
+    setInterval(function () {
+        var curSlide = $('.slide.active');
+        var nextSlide = curSlide.next();
+        curSlide.fadeOut(1).removeClass('active');
+        nextSlide.fadeIn(1).addClass('active');
+    
+        if(nextSlide.length == 0){
+            $('.slide').first().fadeIn(1).addClass('active');
+        }
+        $('.slide.active').css('display','flex');
+    }, 5000);
+});

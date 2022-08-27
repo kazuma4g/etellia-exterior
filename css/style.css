@@ -486,13 +486,24 @@ h2.top-image-title{
 
 .parallax-img{
     width: 100%;
+    height: 100%;
     background-image: url(../img/background.png);
     aspect-ratio: 5/2;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .parallax-img-filter{
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.6);
+}
+
+.about-company-parent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
