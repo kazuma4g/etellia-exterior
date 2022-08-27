@@ -123,6 +123,10 @@ h5{
     font-size: 3vw;
 }
 
+h6{
+    font-size: 3.5vw;
+}
+
 p {
     font-size: 1.3vw;
 }
@@ -433,4 +437,41 @@ h2.top-image-title{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.topics-parent{
+    width: 100%;
+    display: flex;
+    margin-top: 8vw;
+    margin-bottom: 6vw;
+    position: relative;
+}
+
+.topics-title{
+    width: 40%;
+    color: white;
+    background-color: #275B0D;
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+    position: absolute;
+    left: 0;
+}
+
+.topics-list{
+    position: absolute;
+    width: 67%;
+    background-color: #63B13C;
+    right: 0;
+    margin-top: 5vw;
+    color: white;
+}
+
+.topics-item{
+    font-size: 2vw;
+    padding: 2.5vw 0 3vw 3vw;
+    border-bottom: 0.3vw solid #DCFACD;
+}
+
+.topics-item span{
+    font-size: 1.5vw;
 }
