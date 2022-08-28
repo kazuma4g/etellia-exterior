@@ -652,6 +652,7 @@ h2.top-image-title{
     height: 50%;
     border: none;
     border-radius: 1vw;
+    font-size: 2vw;
 }
 
 .form-item-title2{
@@ -675,6 +676,16 @@ h2.top-image-title{
     height: 50%;
     border: none;
     border-radius: 1vw;
+    font-size: 2vw;
+}
+
+.form-item-input-inquiry{
+    width: 70%;
+    height: 16vw;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .form-input-required-inquiry{
@@ -682,9 +693,6 @@ h2.top-image-title{
     height: 80%;
     border: none;
     border-radius: 1vw;
-    padding-bottom: 12vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
 }
 
 .form-submit-btn{
@@ -696,4 +704,5 @@ h2.top-image-title{
     border: 0.2vw solid black;
     align-self: center;
     font-size: 2.5vw;
+    margin-bottom: 5vw;
 }
