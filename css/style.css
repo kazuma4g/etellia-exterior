@@ -256,9 +256,10 @@ h2.top-image-title{
 }
 
 .business-contents-btn{
-    margin-top: 6vw;
-    font-size: 2vw;
-    margin-bottom: 5vw;
+    margin-top: 8vw;
+    font-size: 3vw;
+    margin-bottom: 8vw;
+    width: 50%;
 }
 
 .business-contents-btn:hover{
@@ -282,31 +283,32 @@ h2.top-image-title{
     }
 
     .content-card1{
-        width: 40%;
-        padding: 2.5vw 5vw 3vw 5vw;
+        width: 80%;
+        padding: 3vw 6vw 5vw 6vw;
     }
     
     .content-card2{
-        width: 40%;
-        padding: 2.5vw 5vw 3vw 5vw;
+        width: 80%;
+        padding: 3vw 6vw 5vw 6vw;
     }
     
     .content-card3{
-        width: 40%;
-        padding: 2.5vw 5vw 4vw 5vw;
+        width: 80%;
+        padding: 3vw 6vw 5vw 6vw;
     }
     
     .content-card4{
-        width: 40%;
-        padding: 2.5vw 5vw 4vw 5vw;
+        width: 80%;
+        padding: 3vw 6vw 5vw 6vw;
     }
 
     .card-title{
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .card-desciption{
-        font-size: 2vw;
+        font-size: 3vw;
+        padding-top: 1vw;
     }
 
 }
