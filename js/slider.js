@@ -29,7 +29,6 @@ $('.button-prev').click(function(){
 });
 
 $(document).ready(function(){
-
     setInterval(function () {
         var curSlide = $('.slide.active');
         var nextSlide = curSlide.next();
