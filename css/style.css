@@ -65,6 +65,10 @@ button{
     cursor: pointer;
   }
 
+  button:hover{
+    background-color: #275B0D
+  }
+
 /*common
 -----------------------------------------------------------------------------------------*/
 html {
