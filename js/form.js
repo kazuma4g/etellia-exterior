@@ -12,7 +12,9 @@ function formButtonClick(){
         inputMail.length === 0 || 
         inputInquiry.length === 0 ){
 
-        alert('Missing text in required fields.');
+        alert('必須項目に入力されていません。');
+        var form = $('.form-parent');
+        $("html, body").animate({ scrollTop: form.offset().top }, 1000);
 
     } else if( inputMail.length < 5){
         alert('Mail address should be longer than 5 characters.');

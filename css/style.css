@@ -65,10 +65,6 @@ button{
     cursor: pointer;
   }
 
-  button:hover{
-    background-color: #275B0D
-  }
-
 /*common
 -----------------------------------------------------------------------------------------*/
 html {
@@ -169,6 +165,10 @@ a.top-image-logo{
     padding: 10vw, 1vw, 1.5vw, 1vw;
 }
 
+.top-image-btn:hover{
+    background-color: #275B0D
+}
+
 .bottom-wrapper{
     display: flex;
     justify-content: center;
@@ -260,6 +260,11 @@ h2.top-image-title{
     font-size: 2vw;
     margin-bottom: 5vw;
 }
+
+.business-contents-btn:hover{
+    background-color: #275B0D
+}
+
 
 @media (min-width:1351px){
     .card-desciption{
@@ -588,7 +593,7 @@ h2.top-image-title{
 
 /*form
 -----------------------------------------------------------------------------------------*/
-.form{
+.form-section{
     background-color: #63B13C;
     margin-top: 6vw;
 }
