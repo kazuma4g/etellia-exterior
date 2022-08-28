@@ -690,9 +690,10 @@ h2.top-image-title{
 .form-submit-btn{
     margin-top: 5vw;
     background-color: white;
-    width: 25%;
+    width: 35%;
     color: black;
     text-align: center;
-    border: 1px solid black;
+    border: 0.2vw solid black;
     align-self: center;
+    font-size: 2.5vw;
 }
