@@ -95,7 +95,7 @@ a {
 -----------------------------------------------------------------------------------------*/
 .logo-mark-img{
     width: 10%;
-    margin-top: 5vw;
+    margin-top: 7vw;
 }
 
 h3{
@@ -166,7 +166,9 @@ a.top-image-logo{
 }
 
 .top-image-btn:hover{
-    background-color: #275B0D
+    background-color: #275B0D;
+    box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+	transform: translateY(-4px);
 }
 
 .bottom-wrapper{
@@ -270,7 +272,9 @@ h2.top-image-title{
 }
 
 .business-contents-btn:hover{
-    background-color: #275B0D
+    background-color: #275B0D;
+    box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+	transform: translateY(-4px);
 }
 
 
@@ -494,8 +498,24 @@ h2.top-image-title{
     border-bottom: 0.3vw solid #DCFACD;
 }
 
+.topics-item:hover{
+    box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+	transform: translateY(-4px);
+    border-bottom: 0.3vw solid #275B0D;
+}
+
 .topics-item span{
     font-size: 1.5vw;
+}
+
+@media (max-width:769px){
+    .topics-item{
+        font-size: 2.5vw;
+    }
+    
+    .topics-item span{
+        font-size: 2vw;
+    }
 }
 
 /*parallax image
@@ -509,8 +529,8 @@ h2.top-image-title{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 8vw;
-    margin-bottom: 4vw;
+    margin-top: 10vw;
+    margin-bottom: 3vw;
 }
 
 .parallax-img-filter{
@@ -540,7 +560,8 @@ h2.top-image-title{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5vw;
+    margin-top: 8vw;
+    margin-bottom: 5vw;
     display: flex;
     flex-direction: column;
 }
@@ -599,6 +620,16 @@ h2.top-image-title{
         margin-top: 1vw;
         border-bottom: 0.3vw solid #63B13C;
         padding-bottom: 1vw;
+    }
+
+    @media (max-width:769px){
+        .table-title-about{
+            font-size: 3vw;
+        }
+        
+        .table-description-about{
+            font-size: 2.8vw;
+        }
     }
 
 }
@@ -728,7 +759,7 @@ h2.top-image-title{
     border: 0.2vw solid black;
     align-self: center;
     font-size: 2.5vw;
-    margin-bottom: 5vw;
+    margin-bottom: 8vw;
 }
 
 .form-submit-btn[disabled] {
